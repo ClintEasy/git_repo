@@ -4,4 +4,8 @@
 <age>33</age>
 <countpet>0</countpet>
 <salary>99999</salary>
+<cinema>The Rock</cinema>
+ <serial>Game of Thrones</serial>
+ <food>Dry fish</food>
+ <country>Island</country>
 </list_of_items>
