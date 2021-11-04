@@ -228,8 +228,6 @@ select count(role_name)
 from employees e
 join roles_employee re on e.id = re.employee_id
 join roles r on re.role_id = r.id
-join employee_salary es on es.employee_id = re.employee_id
-join salary s on es.salary_id = s.id 
 where r.role_name like '%Middle%';
 
 --27. Вывести количество разработчиков
